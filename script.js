@@ -10,14 +10,14 @@ const customSetBox = document.getElementById("customSet");
 const customSetText = document.getElementById("customSetText");
 
 window.onload = (event) => {
-  customSetText.value = document.cookie.split("=")[1];
+  if (document.cookie) {
+    customSetText.value = document.cookie.split("=")[1];
+  }
 };
 
 function saveCustomSet() {
-  if (document.cookie) {
-    document.cookie =
-      "customSet=" + customSetText.value + "; SameSite=None; Secure";
-  }
+  document.cookie =
+    "customSet=" + customSetText.value + "; SameSite=None; Secure";
 }
 function generate() {
   let set = "";
