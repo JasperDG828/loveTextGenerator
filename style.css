@@ -23,3 +23,8 @@ body{
     padding: 10px;
     margin: 10px;
 }
+@media only screen and (max-width: 1300px) {
+    #generator{
+        width: 75%;
+    }
+}
