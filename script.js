@@ -24,7 +24,7 @@ function generate() {
     set = set + ",💋,♥️,🥂,🌹,🏵️,🌺,🌸,🔥";
   }
   if (customSetBox.checked) {
-    set = set + customSetText.value;
+    set = set + "," + customSetText.value;
   }
 
   //Create array
