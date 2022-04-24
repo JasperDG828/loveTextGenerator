@@ -9,16 +9,6 @@ const length = document.getElementById("length");
 const customSetBox = document.getElementById("customSet");
 const customSetText = document.getElementById("customSetText");
 
-window.onload = (event) => {
-  if (document.cookie) {
-    customSetText.value = document.cookie.split("=")[1];
-  }
-};
-
-function saveCustomSet() {
-  document.cookie =
-    "customSet=" + customSetText.value + "; SameSite=None; Secure";
-}
 function generate() {
   let set = "";
   if (set1box.checked) {
