@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+body{
+    text-align: center;
+    align-items: center;
+    background-color: #282828;
+    color: white;
+    font-family: 'Libre Bodoni', serif;
+}
+
+
+#generator{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+}
+#generateBtn{
+    background-color: #282828;
+    color: white;
+    font-family: 'Libre Bodoni', serif;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+}

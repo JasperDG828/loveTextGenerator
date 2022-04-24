@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love text generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h1>Love text generator</h1>
+    <p>We all love that someone special, but to express that love, you need to find the perfec emoji's, not too much repetition of the same emoji, etc.<br> But here is the love text generator to create emoji messages with predefined emoji-sets.</p>
+    <div id="generator">
+        <div id="charsets">
+            <p>Select the charactersets that you want to use:</p>
+            <input type="checkbox" id="set1">
+            <label for="set1">😚☺️😍😘🥰</label>
+            <br>
+            <input type="checkbox" id="set2">
+            <label for="set2">❤️🧡💛💚💙💜🤎🖤🤍</label>
+            <br>
+            <input type="checkbox" id="set3">
+            <label for="set3">❤️‍🔥❣️💕💞💓💗💖💘💝</label>
+            <br>
+            <input type="checkbox" id="customSet">
+            <input type="text" placeholder="Split with ," size="30", id="customSetText">
+            <button onclick="saveCustomSet()">Save your custom set</button>
+        </div>
+            <hr>
+            <label for="length">How long should your message be?</label>
+            <input type="number" size="3" id="length" value="100">
+            <br>
+            <button onclick="generate()" id="generateBtn">Generate your message</button>
+            <div id="output"></div>
+        
+    </div>
+    <p>Developed by JasperDG</p>
+</center>
+<script src="script.js"></script>
+</body>
+</html>
