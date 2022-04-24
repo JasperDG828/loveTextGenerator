@@ -14,8 +14,10 @@ window.onload = (event) => {
 };
 
 function saveCustomSet() {
-  document.cookie =
-    "customSet=" + customSetText.value + "; SameSite=None; Secure";
+  if (document.cookie) {
+    document.cookie =
+      "customSet=" + customSetText.value + "; SameSite=None; Secure";
+  }
 }
 function generate() {
   let set = "";
