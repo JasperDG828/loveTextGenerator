@@ -13,7 +13,7 @@ body{
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    width: 25%;
+    width: 75%;
 }
 #generateBtn{
     background-color: #282828;
@@ -22,9 +22,4 @@ body{
     width: 30%;
     padding: 10px;
     margin: 10px;
-}
-@media only screen and (max-width: 1300px) {
-    #generator{
-        width: 75%;
-    }
 }
