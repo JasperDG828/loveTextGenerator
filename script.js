@@ -15,13 +15,13 @@ function generate() {
     set = set + ",😚,☺️,😍,😘,🥰";
   }
   if (set2box.checked) {
-    set = set + ",❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍";
+    set = set + ",❤️,🧡,💛,💚,💙,💜";
   }
   if (set3box.checked) {
     set = set + ",❤️‍🔥,❣️,💕,💞,💓,💗,💖,💘,💝";
   }
   if (set4box.checked) {
-    set = set + ",💋,♥️,🥂,🌹,🏵️,🌺,🌸,🔥";
+    set = set + ",💋,♥️,🥂,🌹,🏵️,🌺,🌸,🔥,🌼";
   }
   if (customSetBox.checked) {
     set = set + "," + customSetText.value;
